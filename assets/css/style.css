@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Kamryn';
+    src: url("../fonts/Kamryn.otf") format("opentype");
+}
+
+#rolling-header{
+    font-family: 'Kamryn', serif;
+    letter-spacing: -5px;
+    font-size: 6pc;
+    color: red;
+}
