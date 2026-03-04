@@ -132,7 +132,7 @@ article h2 {
     box-shadow: 8px 8px 0 var(--rosa);
 }
 
-article p {
+article p, article ul {
     font-size: 1.3rem;
     color: var(--preto);
     margin: 20px 0;
@@ -143,6 +143,11 @@ article p {
     border-bottom: 8px solid var(--azul);
     text-align: justify;
     backdrop-filter: blur(2px);
+}
+
+ul li{
+    padding-left: 10px;
+    list-style-position: inside;
 }
 
 article p:last-of-type {
