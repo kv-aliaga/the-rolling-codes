@@ -1,0 +1,72 @@
+body {
+    font-family: 'Nunito', 'Quicksand', 'Comfortaa', sans-serif;
+    text-align: center;
+    background-color: #fffafc;
+}
+
+.top-pibbles,
+.favorites,
+.dawgs {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.dog-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.dog-card figcaption {
+    margin-top: 8px;
+    font-size: 0.95rem;
+    color: #555;
+    font-weight: 600;
+}
+/* groups */
+.dawg-group {
+    margin-bottom: 25px;
+}
+
+/* photos inside each dog */
+.dawg-photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* together section */
+.together {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 40px;
+}
+
+/* keep all images SAME SIZE */
+.dog-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.dog-card img:hover {
+    transform: scale(1.07);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.22);
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: #ffb6c1;
+    border-radius: 10px;
+    width: 60%;
+    margin: 30px auto;
+}
